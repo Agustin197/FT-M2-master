@@ -16,4 +16,3 @@ export default function Card({name, max, min, onClose, img}) {
   )
 };
 
-//esto es un cambio 
