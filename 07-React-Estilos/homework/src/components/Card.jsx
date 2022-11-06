@@ -15,7 +15,6 @@ export default function Card({name, max, min, onClose, img}) {
     </div>
   )
 };
-// otra forma
 //   return (
    
 //    <div className={styles.container}> 
