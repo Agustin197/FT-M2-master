@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+.btn{
+  border-radius: 10px;
+  
+}
+
+input{
+  border-radius: 10px;
+}
