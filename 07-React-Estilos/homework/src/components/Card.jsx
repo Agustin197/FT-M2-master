@@ -15,16 +15,3 @@ export default function Card({name, max, min, onClose, img}) {
     </div>
   )
 };
-//   return (
-   
-//    <div className={styles.container}> 
-//      <div onClick={onClose}>x</div>
-//      <img src={`http://openweathermap.org/img/wn/${img}@2x.png`} alt="pic" />
-//      <h1>{name}</h1>
-//      <h4>max</h4>
-//      <div>{max}</div>
-//      <h4>min</h4>
-//      <div>{min}</div>
-     
-//    </div>
-//  )
