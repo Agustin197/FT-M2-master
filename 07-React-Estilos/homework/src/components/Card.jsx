@@ -15,3 +15,5 @@ export default function Card({name, max, min, onClose, img}) {
     </div>
   )
 };
+
+//esto es un cambio 
