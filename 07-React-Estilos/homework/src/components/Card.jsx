@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "../css/card.module.css"
 
 export default function Card({name, max, min, onClose, img}) {
-  // acá va tu código
+  
   return (
     <div className={styles.container}>
       <div className={styles.containerName}>
