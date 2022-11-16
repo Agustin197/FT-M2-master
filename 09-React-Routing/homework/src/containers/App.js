@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
+import Route from "react-router-dom"
 
 const apiKey = 'Aqui va la API key que creaste';
 
@@ -46,7 +47,14 @@ function App() {
   }
   return (
     <div className="App">
-      <Nav onSearch={onSearch}/>
+      <Route
+      path="/"
+      render={() =><Nav onSearch={onSearch}/>}
+      />
+      <Route
+      path="/about"
+      component={About}
+      />
       <div>
         <Cards
           cities={cities}
