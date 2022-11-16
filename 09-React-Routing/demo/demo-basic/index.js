@@ -34,7 +34,7 @@ const Root = (
         <h2>About Other</h2>
       </Route>
       <Route path="/ejemplo">
-        <Ejemplo nombre="Toni" apellido="Tralice"/>
+        <Ejemplo nombre="Agustin" apellido="Ceballos"/>
       </Route>
       <Route path="/">
         <h2>Default if no match</h2>

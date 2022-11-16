@@ -71,10 +71,10 @@ const Root = (
       </Route> */}
       {/* <Route sensitive path="/sensitive">
         <h2>Sensitive</h2>
-      </Route>
+      </Route>*/}
       <Route sensitive path="/Sensitive">
         <h2>Sensitive Mayus</h2>
-      </Route> */}
+      </Route> 
       <Route path="/sensitive">
         <h2>No Sensitive</h2>
       </Route>
